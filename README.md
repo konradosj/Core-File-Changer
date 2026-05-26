@@ -20,20 +20,11 @@ Result:
 - `mod_a/sound.wav` — replacement file copied here
 - `mod_b/sound.wav` — replacement file copied here
 
-## Usage
-
-```
-python xxx_konraodsj.py <replacement_file> <target_file_1> [target_file_2] ...
-```
-
-| Argument | Description |
-|---|---|
-| `replacement_file` | The file to copy into each target location |
-| `target_file_N` | One or more existing files to replace |
-
-Only existing files are processed — targets that don't exist are silently skipped.
-
 ## Requirements
 
 - Python 3.x
 - No external dependencies (standard library only)
+
+## License
+
+[PolyForm Strict License 1.0.0](https://polyformproject.org/licenses/strict/1.0.0)
